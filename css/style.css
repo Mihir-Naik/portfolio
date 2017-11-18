@@ -758,8 +758,9 @@
 	{
 		padding: 0em;
 		/* background: #333 url(../images/banner.jpg) no-repeat center; */
-		background: #333 url(https://insideecology.com/wp-content/uploads/2017/11/Walthamstow-landscape-Rachel-Smith-1500x500.jpg) no-repeat center;
+		background: #333 url(https://www.cgu.edu/wp-content/uploads/2016/03/drucker-slider-1500x700.jpg) no-repeat center;
 		background-size: cover;
+		height: 800px;
 	}
 
 	#header
@@ -778,6 +779,10 @@
 			margin-top: -40px;
 			margin-bottom: 40px;
 			font-size: 3em;
+		}
+
+		no-bg {
+			background: white;
 		}
 /*********************************************************************************/
 /* Logo                                                                          */
@@ -1006,7 +1011,7 @@
 	#copyright
 	{
 		position: relative;
-		padding: 3em 0em;
+		padding: 2em 0em;
 		text-align: center;
 		color: rgba(255,255,255,.4);
 	}
